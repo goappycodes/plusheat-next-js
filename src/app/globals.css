@@ -1,26 +1,304 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * PlusHeat design tokens — ported 1:1 from the WordPress theme
+ * (wp-content/themes/plusheat/assets/css/theme/root.css). Tailwind utilities
+ * such as `bg-primary`, `text-heading`, `rounded-card` resolve to these.
+ */
+@theme {
+  --font-sans: var(--font-rubik), "Rubik", sans-serif;
+  --font-roboto: var(--font-roboto-face), "Roboto", sans-serif;
+
+  --color-primary: #f27b05;
+  --color-primary-light: #f59436;
+  --color-primary-dark: #ed5e05;
+  --color-secondary: #fef2eb;
+  --color-highlight: #00daaa;
+  --color-heading: #161616;
+  --color-button: #161616;
+  --color-text: #777670;
+  --color-grey: #b1a69f;
+  --color-grey-light: #f3f2f0;
+  --color-grey-lighter: #fafafa;
+  --color-grey-dark: #3f3f3f;
+  --color-soft: #f5f5f5;
+  --color-line: #eaeaea;
+  --color-border-light: #e5e7eb;
+  --color-muted: #888888;
+  --color-doc: #f4f4f4;
+
+  --radius-field: 0.75rem;
+  --radius-button: 1rem;
+  --radius-card-sm: 1.5rem;
+  --radius-card: 2rem;
+  --radius-panel: 64px;
+  --radius-panel-mobile: 32px;
+
+  --shadow-plan: 0 8px 30px rgba(22, 22, 22, 0.07);
+  --shadow-panel: 0 -24px 39.8px -6px rgba(0, 0, 0, 0.04);
+  --shadow-panel-strong: 0 -32px 46.6px -6px rgba(0, 0, 0, 0.05);
+  --shadow-pricing: 0 0 32px rgba(0, 0, 0, 0.06);
+  --shadow-review: 0 12px 32px rgba(0, 0, 0, 0.08);
+
+  --breakpoint-xl: 1280px;
+  --breakpoint-lgx: 992px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    background: #ffffff;
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    font-family: inherit;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Page content container: same geometry as the theme's .container-lg on the
+   Page Sections pages (--section-container-width 1550px, 48px side padding
+   from 1024px, 20px on phones). */
+@utility container-ph {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 16px;
+  max-width: calc(1550px + 2 * 48px);
+  @media (min-width: 769px) {
+    padding-inline: 20px;
+  }
+  @media (min-width: 1024px) {
+    padding-inline: 48px;
+  }
+}
+
+/* Section panels: white, 64px rounded top and an upward soft shadow; each
+   panel overlaps the bottom of the previous one (Figma Frames 13-20). */
+@utility panel {
+  position: relative;
+  background-color: #ffffff;
+  border-top-left-radius: var(--radius-panel-mobile);
+  border-top-right-radius: var(--radius-panel-mobile);
+  box-shadow: var(--shadow-panel);
+  @media (min-width: 768px) {
+    border-top-left-radius: var(--radius-panel);
+    border-top-right-radius: var(--radius-panel);
+  }
+}
+
+/* Section headings (feature grid, compare, reviews, FAQ, form CTA…). */
+@utility section-title {
+  margin: 0;
+  color: var(--color-heading);
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  @media (min-width: 768px) {
+    font-size: 48px;
+    line-height: 1.27;
+  }
+}
+
+@utility section-subtitle {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+/* Plan feature ticks / dashes (tick-primary.svg on live). */
+.tick-li::before {
+  content: "";
+  flex: 0 0 16px;
+  width: 16px;
+  height: 16px;
+  background: url("/images/tick-primary.svg") center / contain no-repeat;
+}
+.dash-li::before {
+  content: "";
+  flex: 0 0 16px;
+  width: 16px;
+  height: 1.5px;
+  background: currentColor;
+}
+
+/* FAQ accordion (details/summary) plus / minus icon. */
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary {
+  list-style: none;
+}
+.faq-item summary::before,
+.faq-item summary::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  width: 16px;
+  height: 2px;
+  margin-top: -1px;
+  background: var(--color-heading);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.faq-item summary::after {
+  transform: rotate(90deg);
+}
+@media (min-width: 769px) {
+  .faq-item summary::before,
+  .faq-item summary::after {
+    right: 32px;
+  }
+}
+.faq-item[open] summary::after {
+  transform: rotate(90deg) scaleX(0);
+  opacity: 0;
+}
+
+/* Annual offer bubble above the "Annually" toggle (plans-table.css 1037-1080):
+   shown only while Monthly is selected. */
+.offer-bubble {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  padding: 0 12px;
+  border-radius: 8px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.3;
+  padding-block: 4px;
+  pointer-events: none;
+}
+.offer-bubble::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -6px;
+  border: 6px solid transparent;
+  border-top-color: var(--color-primary);
+}
+
+/* Hide scrollbars on the phone card slider. */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Spinner (theme loader.css). */
+.ph-loader {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 4px solid rgba(242, 123, 5, 0.2);
+  border-top-color: var(--color-primary);
+  animation: ph-spin 0.8s linear infinite;
+}
+@keyframes ph-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------------- Hero (flexible-page-template.css 1.0, 7.0, 10.0) ---------------- */
+.ph-hero__img {
+  object-position: var(--hero-focus-x) var(--hero-focus-y);
+  transform: scale(var(--hero-mobile-zoom));
+  transform-origin: var(--hero-focus-x) var(--hero-focus-y);
+}
+.ph-hero__media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, #fff 0%, rgba(255, 255, 255, 0.85) 12%, rgba(255, 255, 255, 0.4) 28%, rgba(255, 255, 255, 0) 45%);
+}
+@media (min-width: 992px) {
+  .ph-hero__img {
+    object-position: right var(--hero-desktop-y);
+    transform: none;
+  }
+  .ph-hero__media::after {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0) 150px);
+  }
+}
+@media (min-width: 992px) and (max-width: 1439px) {
+  .ph-hero__media::after {
+    background:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0) 150px),
+      linear-gradient(to right, rgba(255, 255, 255, 0.95) 0, rgba(255, 255, 255, 0.85) 34%, rgba(255, 255, 255, 0) 52%);
+  }
+}
+@media (min-width: 1440px) {
+  .ph-hero__media::after {
+    background:
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0, rgba(255, 255, 255, 0) 150px),
+      linear-gradient(to right, rgba(255, 255, 255, 0.95) 0, rgba(255, 255, 255, 0.85) 460px, rgba(255, 255, 255, 0) 780px);
+  }
+}
+@media (min-width: 1024px) {
+  /* White fade behind the see-through header. */
+  .ph-hero__media::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: calc(78px + 120px);
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0, rgba(255, 255, 255, 0.75) 78px, rgba(255, 255, 255, 0) 100%);
+  }
+}
+.ph-hero--no-overlay .ph-hero__media::after,
+.ph-hero--no-overlay .ph-hero__media::before {
+  content: none;
+}
+/* Review cards over the photo, bottom right, from 1280px. The next panel is
+   pulled up 61px over the hero, so they sit 77px + 61px from the bottom. */
+@media (min-width: 1280px) {
+  .ph-hero__reviews {
+    position: absolute;
+    right: calc((100% - min(1550px, 100% - 40px)) / 2 + 60px);
+    bottom: calc(77px + 61px);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 382px;
+  }
+}
+
+/* On hero pages the header is see-through from 1024px (the photo runs behind it). */
+@media (min-width: 1024px) {
+  .over-hero {
+    background: transparent;
+  }
+  .over-hero .hdr-btn:not(:hover) {
+    background: transparent;
+  }
 }

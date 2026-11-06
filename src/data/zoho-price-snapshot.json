@@ -1,0 +1,1430 @@
+{
+ "fetchedAt": "2026-11-06T18:28:18.401Z",
+ "plans": {
+  "HMCMP59": {
+   "exVat": 11.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMCMP99": {
+   "exVat": 8.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMSMP59": {
+   "exVat": 13.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMSMP99": {
+   "exVat": 9.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPMP59": {
+   "exVat": 17.48,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPMP99": {
+   "exVat": 14.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMCMP59": {
+   "exVat": 13.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMCMP99": {
+   "exVat": 9.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMPMP59": {
+   "exVat": 19.15,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMPMP99": {
+   "exVat": 16.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMSMP59": {
+   "exVat": 14.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMSMP99": {
+   "exVat": 11.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "HACMP59": {
+   "exVat": 139.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HACMP99": {
+   "exVat": 99.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HASMP59": {
+   "exVat": 159.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HASMP99": {
+   "exVat": 119.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HAPMP59": {
+   "exVat": 209.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HAPMP99": {
+   "exVat": 179.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LACMP59": {
+   "exVat": 159.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LACMP99": {
+   "exVat": 119.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LASMP59": {
+   "exVat": 179.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LASMP99": {
+   "exVat": 139.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LAPMP59": {
+   "exVat": 229.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LAPMP99": {
+   "exVat": 199.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HMPLMP59": {
+   "exVat": 18.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPLMP99": {
+   "exVat": 16.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "HAPLMP59": {
+   "exVat": 219.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HAPLMP99": {
+   "exVat": 199.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LMPLMP59": {
+   "exVat": 19.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMPLMP99": {
+   "exVat": 18.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "LAPLMP59": {
+   "exVat": 239.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LAPLMP99": {
+   "exVat": 219.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "ACMSME150": {
+   "exVat": 17.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASMSME150": {
+   "exVat": 21,
+   "status": "active",
+   "unit": "years"
+  },
+  "APMSME150": {
+   "exVat": 71,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALCMSME150": {
+   "exVat": 25.2,
+   "status": "active",
+   "unit": "years"
+  },
+  "MHMSME150E": {
+   "exVat": 1.12,
+   "status": "active",
+   "unit": "months"
+  },
+  "MSCMSME150E": {
+   "exVat": 2.46,
+   "status": "active",
+   "unit": "months"
+  },
+  "APCMSME150E": {
+   "exVat": 3.6,
+   "status": "active",
+   "unit": "months"
+  },
+  "ALCCMSME150E": {
+   "exVat": 1.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHMPLMP59": {
+   "exVat": 31.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHMPLMP99": {
+   "exVat": 28.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHAPLMP59": {
+   "exVat": 379.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHAPLMP99": {
+   "exVat": 339.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLMPLMP59": {
+   "exVat": 35.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLMPLMP99": {
+   "exVat": 31.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLAPLMP59": {
+   "exVat": 429.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLAPLMP99": {
+   "exVat": 379.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHMSMP59": {
+   "exVat": 20.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHMSMP99": {
+   "exVat": 18.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHASMP59": {
+   "exVat": 249.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHASMP99": {
+   "exVat": 219.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLMSMP59": {
+   "exVat": 24.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLMSMP99": {
+   "exVat": 21.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLASMP59": {
+   "exVat": 289.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLASMP99": {
+   "exVat": 259.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHMPMP59": {
+   "exVat": 24.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHMPMP99": {
+   "exVat": 19.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHAPMP59": {
+   "exVat": 299.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHAPMP99": {
+   "exVat": 239.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLMPMP59": {
+   "exVat": 28.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLMPMP99": {
+   "exVat": 23.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLAPMP59": {
+   "exVat": 339.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLAPMP99": {
+   "exVat": 279.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHMCMP59": {
+   "exVat": 19.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHMCMP99": {
+   "exVat": 17.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBHACMP59": {
+   "exVat": 229.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBHACMP99": {
+   "exVat": 209.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLMCMP59": {
+   "exVat": 22.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLMCMP99": {
+   "exVat": 20.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "EBLACMP59": {
+   "exVat": 269.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "EBLACMP99": {
+   "exVat": 249.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "HMSMP0": {
+   "exVat": 19.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPMP0": {
+   "exVat": 26.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "HASMP0": {
+   "exVat": 239.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HAPMP0": {
+   "exVat": 319.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LMSMP0": {
+   "exVat": 21.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMPMP0": {
+   "exVat": 28.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "LASMP0": {
+   "exVat": 259.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LAPMP0": {
+   "exVat": 339.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HMSMP39": {
+   "exVat": 16.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPMP39": {
+   "exVat": 24.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "ED4UMSNE": {
+   "exVat": 12.49,
+   "status": "inactive",
+   "unit": "months"
+  },
+  "ED4USMNE": {
+   "exVat": 20.82,
+   "status": "inactive",
+   "unit": "months"
+  },
+  "ED4UAPEDNE": {
+   "exVat": 149.9,
+   "status": "inactive",
+   "unit": "years"
+  },
+  "ED4UPANE": {
+   "exVat": 249.9,
+   "status": "inactive",
+   "unit": "years"
+  },
+  "HMPLMP0": {
+   "exVat": 28.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMCMP0": {
+   "exVat": 18.32,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMPLMP0": {
+   "exVat": 29.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "LMCMP0": {
+   "exVat": 19.98,
+   "status": "active",
+   "unit": "months"
+  },
+  "HAPLMP0": {
+   "exVat": 339.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "HACMP0": {
+   "exVat": 219.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LAPLMP0": {
+   "exVat": 359.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LACMP0": {
+   "exVat": 239.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHMCEP0": {
+   "exVat": 10.41,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMCEP49": {
+   "exVat": 6.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMCEP99": {
+   "exVat": 2.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMCEP0CO": {
+   "exVat": 7.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMCEP49CO": {
+   "exVat": 4.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMCEP99CO": {
+   "exVat": 1.24,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMSEP0": {
+   "exVat": 11.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMSEP49": {
+   "exVat": 9.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMSEP99": {
+   "exVat": 1.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMSEP0CO": {
+   "exVat": 8.74,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMSEP49CO": {
+   "exVat": 5.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMSEP99CO": {
+   "exVat": 1.24,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMPEP0": {
+   "exVat": 11.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMPEP49": {
+   "exVat": 10.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMPEP99": {
+   "exVat": 2.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMPEP0CO": {
+   "exVat": 8.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMPEP49CO": {
+   "exVat": 7.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHMPEP99CO": {
+   "exVat": 1.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "TFHACEP99CO": {
+   "exVat": 14.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHACEP49CO": {
+   "exVat": 59.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHACEP0CO": {
+   "exVat": 89.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHACEP99": {
+   "exVat": 27.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHACEP49": {
+   "exVat": 79.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHACEP0": {
+   "exVat": 124.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHASEP99CO": {
+   "exVat": 14.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHASEP49CO": {
+   "exVat": 69.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHASEP0CO": {
+   "exVat": 104.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHASEP99": {
+   "exVat": 23.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHASEP49": {
+   "exVat": 109.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHASEP0": {
+   "exVat": 139.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHAPEP99CO": {
+   "exVat": 19.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHAPEP49CO": {
+   "exVat": 91.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHAPEP0CO": {
+   "exVat": 101.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHAPEP99": {
+   "exVat": 33.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHAPEP49": {
+   "exVat": 123.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "TFHAPEP0": {
+   "exVat": 143.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "HMBSP": {
+   "exVat": 5.82,
+   "status": "active",
+   "unit": "months"
+  },
+  "HABSP": {
+   "exVat": 69.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "LCEP99CO": {
+   "exVat": 2.08,
+   "status": "active",
+   "unit": "months"
+  },
+  "LCEP99": {
+   "exVat": 4.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSEP99CO": {
+   "exVat": 2.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSEP99": {
+   "exVat": 3.74,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPEP99CO": {
+   "exVat": 2.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPEP99": {
+   "exVat": 5.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "LCEP49CO": {
+   "exVat": 7.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LCEP49": {
+   "exVat": 9.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSEP49CO": {
+   "exVat": 8.74,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSEP49": {
+   "exVat": 10.41,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPEP49CO": {
+   "exVat": 9.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPEP49": {
+   "exVat": 13.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "LCEP0CO": {
+   "exVat": 10.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "LCEP0": {
+   "exVat": 12.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSEP0CO": {
+   "exVat": 12.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSEP0": {
+   "exVat": 14.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPEP0CO": {
+   "exVat": 14.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPEP0": {
+   "exVat": 14.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "ALCEP99CO": {
+   "exVat": 24.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALCEP992": {
+   "exVat": 49.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSEP99CO": {
+   "exVat": 34.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSEP992": {
+   "exVat": 44.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPEP99CO2": {
+   "exVat": 34.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPEP992": {
+   "exVat": 69.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALCEP49CO": {
+   "exVat": 94.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALCEP492": {
+   "exVat": 114.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSEP49CO": {
+   "exVat": 104.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSEP49": {
+   "exVat": 124.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPEP49CO": {
+   "exVat": 114.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPEP49": {
+   "exVat": 159.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALCEPCO": {
+   "exVat": 129.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALCEP02": {
+   "exVat": 149.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSEP0OC": {
+   "exVat": 154.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSEP0": {
+   "exVat": 174.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPEP0OC": {
+   "exVat": 169.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPEP02": {
+   "exVat": 179.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "MSS0": {
+   "exVat": 16.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "MSS59": {
+   "exVat": 10.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "MSS99": {
+   "exVat": 7.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "ASS0": {
+   "exVat": 199.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASS59": {
+   "exVat": 129.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASS99": {
+   "exVat": 89.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "MHSS0": {
+   "exVat": 23.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "MHSS59": {
+   "exVat": 15.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "MHSS99": {
+   "exVat": 13.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "AHSS0": {
+   "exVat": 279.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "AHSS59": {
+   "exVat": 189.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "AHSS99": {
+   "exVat": 159.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "HTBLMBSP": {
+   "exVat": 7.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "MBSPHTBL": {
+   "exVat": 7.495,
+   "status": "active",
+   "unit": "months"
+  },
+  "ABSPHTBL": {
+   "exVat": 89.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "HSC99": {
+   "exVat": 8.325,
+   "status": "active",
+   "unit": "months"
+  },
+  "RC99": {
+   "exVat": 10.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "BC0": {
+   "exVat": 6.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "BC49": {
+   "exVat": 4.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "BC99": {
+   "exVat": 1.24,
+   "status": "active",
+   "unit": "months"
+  },
+  "SC0": {
+   "exVat": 7.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "SC49": {
+   "exVat": 4.46,
+   "status": "active",
+   "unit": "months"
+  },
+  "SC99": {
+   "exVat": 0.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "PC0": {
+   "exVat": 8.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "PC49": {
+   "exVat": 7.08,
+   "status": "active",
+   "unit": "months"
+  },
+  "PrC99": {
+   "exVat": 0.93,
+   "status": "active",
+   "unit": "months"
+  },
+  "BC0S": {
+   "exVat": 9.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "BC49S": {
+   "exVat": 5.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "BC99S": {
+   "exVat": 1.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "SC0S": {
+   "exVat": 10.41,
+   "status": "active",
+   "unit": "months"
+  },
+  "SC49S": {
+   "exVat": 9.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "SC99S": {
+   "exVat": 2.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "PC0S": {
+   "exVat": 11.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "PC49S": {
+   "exVat": 9.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "PC99S": {
+   "exVat": 3.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "LBC0": {
+   "exVat": 10.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "LBC49": {
+   "exVat": 7.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LBC99": {
+   "exVat": 1.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSC0": {
+   "exVat": 12.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSC49": {
+   "exVat": 8.74,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSC99": {
+   "exVat": 2.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPC0": {
+   "exVat": 14.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPC49": {
+   "exVat": 9.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPC99": {
+   "exVat": 2.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LBC0S": {
+   "exVat": 11.24,
+   "status": "active",
+   "unit": "months"
+  },
+  "LBC49S": {
+   "exVat": 9.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "LBC99S": {
+   "exVat": 4.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSC0S": {
+   "exVat": 13.99,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSC49S": {
+   "exVat": 10.41,
+   "status": "active",
+   "unit": "months"
+  },
+  "LSC99S": {
+   "exVat": 3.74,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPC0S": {
+   "exVat": 14.58,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPC49S": {
+   "exVat": 12.91,
+   "status": "active",
+   "unit": "months"
+  },
+  "LPC99S": {
+   "exVat": 5.41,
+   "status": "active",
+   "unit": "months"
+  },
+  "ABC0": {
+   "exVat": 79.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ABC49": {
+   "exVat": 49.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ABC99": {
+   "exVat": 14.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASC0": {
+   "exVat": 89.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASC49": {
+   "exVat": 53.5,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASC99": {
+   "exVat": 10.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "APC0": {
+   "exVat": 99.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "APC49": {
+   "exVat": 84.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "APC99": {
+   "exVat": 11.2,
+   "status": "active",
+   "unit": "years"
+  },
+  "ABC0S": {
+   "exVat": 114.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ABC49S": {
+   "exVat": 69.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ABC99S": {
+   "exVat": 19.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASC0S": {
+   "exVat": 124.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASC49S": {
+   "exVat": 109.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ASC99S": {
+   "exVat": 30.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "APC0S": {
+   "exVat": 139.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "APC49S": {
+   "exVat": 119.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "APC99S": {
+   "exVat": 37.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALBC0": {
+   "exVat": 129.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALBC49": {
+   "exVat": 94.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALBC99": {
+   "exVat": 19.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSC0": {
+   "exVat": 154.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSC49": {
+   "exVat": 104.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSC99": {
+   "exVat": 34.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPC0": {
+   "exVat": 169.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPC49": {
+   "exVat": 114.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPC99": {
+   "exVat": 34.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALBC0S": {
+   "exVat": 134.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALBC49S": {
+   "exVat": 114.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALBC99S": {
+   "exVat": 49.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSC0S": {
+   "exVat": 167.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSC49S": {
+   "exVat": 124.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALSC99S": {
+   "exVat": 44.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPC0S": {
+   "exVat": 174.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPC49S": {
+   "exVat": 154.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALPC99S": {
+   "exVat": 64.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "HMPLEP0": {
+   "exVat": 16.658,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPLEP49": {
+   "exVat": 14.158,
+   "status": "active",
+   "unit": "months"
+  },
+  "HMPLEP99": {
+   "exVat": 6.65,
+   "status": "active",
+   "unit": "months"
+  },
+  "LLPLEP0": {
+   "exVat": 19.992,
+   "status": "active",
+   "unit": "months"
+  },
+  "LLPLEP49": {
+   "exVat": 16.658,
+   "status": "active",
+   "unit": "months"
+  },
+  "LLPLEP99": {
+   "exVat": 9.158,
+   "status": "active",
+   "unit": "months"
+  },
+  "AHMPLEP0": {
+   "exVat": 199.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "AHMPLEP49": {
+   "exVat": 169.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "AHMPLEP99": {
+   "exVat": 79.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALLPLEP0": {
+   "exVat": 239.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALLPLEP49": {
+   "exVat": 199.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ALLPLEP99": {
+   "exVat": 109.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "AABS": {
+   "exVat": 69.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "MABS": {
+   "exVat": 5.82,
+   "status": "active",
+   "unit": "months"
+  },
+  "ABSCP12": {
+   "exVat": 89.8,
+   "status": "active",
+   "unit": "years"
+  },
+  "MBSCP12": {
+   "exVat": 7.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "RC0": {
+   "exVat": 20.83,
+   "status": "active",
+   "unit": "months"
+  },
+  "RC49": {
+   "exVat": 14.16,
+   "status": "active",
+   "unit": "months"
+  },
+  "ARC0": {
+   "exVat": 249.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ARC49": {
+   "exVat": 169.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ARC99": {
+   "exVat": 129.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "RHC0": {
+   "exVat": 22.49,
+   "status": "active",
+   "unit": "months"
+  },
+  "RHC49": {
+   "exVat": 16.66,
+   "status": "active",
+   "unit": "months"
+  },
+  "RHC99": {
+   "exVat": 13.33,
+   "status": "active",
+   "unit": "months"
+  },
+  "ARHC0": {
+   "exVat": 269.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ARHC49": {
+   "exVat": 199.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "ARHC99": {
+   "exVat": 159.9,
+   "status": "active",
+   "unit": "years"
+  },
+  "CHC99": {
+   "exVat": 8.325,
+   "status": "active",
+   "unit": "months"
+  }
+ }
+}

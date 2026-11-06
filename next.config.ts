@@ -1,9 +1,12 @@
 import type { NextConfig } from "next";
 
+/**
+ * Cache Components is deliberately off: Zoho data is cached with
+ * `unstable_cache`, which on Vercel lives in the shared Data Cache, so the
+ * Zoho OAuth token and price book are reused across serverless instances
+ * (Zoho throttles token minting). See src/lib/zoho.ts.
+ */
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
   turbopack: {
     rules: {
       "*.css": {
@@ -11,6 +14,24 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  async redirects() {
+    return [
+      // Old WordPress plan-table page for the same plans.
+      { source: "/get-boiler-cover", destination: "/boiler-cover", permanent: false },
+    ];
+  },
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+        ],
+      },
+    ];
   },
 };
 

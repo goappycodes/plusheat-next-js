@@ -76,7 +76,7 @@ export function LeadForm() {
           autoComplete="email"
           className={`${input} min-[641px]:col-span-2`}
         />
-        <input name="website" type="text" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
+        <input name="website" type="text" tabIndex={-1} autoComplete="off" className="hidden" />
       </div>
       {error && <p className="mb-0 mt-3 text-[14px] text-[#cc0100]">{error}</p>}
       <div className="mt-6 flex">

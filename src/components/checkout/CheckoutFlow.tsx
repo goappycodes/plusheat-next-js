@@ -399,7 +399,7 @@ export function CheckoutFlow({ model }: { model: CheckoutModel }) {
                     />
                   </Field>
 
-                  <input name="website" type="text" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
+                  <input name="website" type="text" tabIndex={-1} autoComplete="off" className="hidden" />
 
                   {serverError && (
                     <div className="mt-6 rounded-[15px] bg-secondary p-4 text-[14px] text-primary">{serverError}</div>
